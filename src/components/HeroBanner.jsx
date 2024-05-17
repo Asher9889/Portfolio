@@ -81,7 +81,7 @@ const HeroBanner = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
-                        I Am A React Frontend
+                        I Am A Frontend React 
                         <br className="invisible md:visible" />
                         Developer
                     </h1>
@@ -100,10 +100,8 @@ const HeroBanner = () => {
                         <span className="font-semibold">Saurabh Kushwaha</span>
                     </div>
                     <div className="max-w-[510px]">
-                        I create and maintain modern websites and applications.
-                        I solve all your business problems. Lorem Ipsum is
-                        simply dummy text of the printing and typesetting
-                        industry.
+                    I specialize in creating dynamic and interactive user interfaces for web applications.
+                    Constantly adapting to the evolving React ecosystem.
                     </div>
                 </motion.div>
                 {/* INTRO END */}

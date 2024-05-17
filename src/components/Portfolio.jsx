@@ -34,7 +34,7 @@ const Portfolio = () => {
             {/* FILTER TAGS START */}
             <Div className="flex justify-start md:justify-center gap-[10px] mb-[50px] overflow-auto">
                 {filters.map((item, index) => (
-                    <div
+                    <div 
                         key={index}
                         className={`bg-[#252525] rounded-lg py-[10px] px-[17px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] cursor-pointer whitespace-nowrap ${
                             selectedTag === item.id
@@ -57,7 +57,7 @@ const Portfolio = () => {
                             key={index}
                             className="flex flex-col gap-4 cursor-pointer"
                         >
-                            <div className="bg-black rounded-[20px] aspect-video overflow-hidden">
+                            <div onClick={()=> window.open(`${item.link}`)} className="bg-black rounded-[20px] aspect-video overflow-hidden">
                                 <img
                                     src={item.image}
                                     className="transition-transform hover:-translate-y-[25%] hover:duration-2500 ease-linear"

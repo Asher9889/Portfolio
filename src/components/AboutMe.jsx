@@ -40,32 +40,19 @@ const AboutMe = () => {
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
+                I'm Saurabh Kushwaha, currently pursuing my Master's in Computer Science from UpGrad. With a strong foundation in React, HTML, CSS, and JavaScript, I specialize in crafting engaging and responsive user interfaces. My expertise extends to utilizing state management solutions like Redux and designing with popular CSS frameworks such as Tailwind CSS and Bootstrap. I'm passionate about leveraging these technologies to develop scalable and visually appealing web applications that meet the highest standards of user experience and functionality.
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
+                A tech enthusiast with an insatiable curiosity for the latest innovations in the digital realm. Whether it's exploring emerging programming languages or diving deep into cutting-edge frameworks, I thrive on the challenge of staying ahead of the curve. With a knack for problem-solving and a passion for elegant code, I approach every project with a blend of creativity and precision. Beyond the screen, you'll often find me engrossed in tech blogs, attending meetups, or tinkering with new gadgets. Let's connect and geek out over all things tech!
                 </Div>
                 {/* PARAGRAPH END */}
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled itLorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it
+                I'm currently on the lookout for exciting new opportunities in the tech industry. With a solid background in React, HTML, CSS, Redux, JavaScript, Tailwind CSS, and Bootstrap, I'm eager to contribute my skills and expertise to innovative projects. Whether it's front-end development, UI/UX design, or any other tech-related role, I'm ready to hit the ground running and make a meaningful impact. If you know of any openings or have a project in mind, I'd love to chat and explore how I can be a valuable addition to your team. Let's connect and create something awesome together!
                 </Div>
                 {/* PARAGRAPH END */}
             </Wrapper>

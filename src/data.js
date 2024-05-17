@@ -1,8 +1,8 @@
 import p1 from "./assets/project-11.png";
 import p2 from "./assets/project-22.png";
-import p3 from "./assets/project-3.png";
-import p4 from "./assets/project-4.png";
-import p5 from "./assets/project-5.png";
+import p3 from "./assets/project-33.png";
+import p4 from "./assets/project-44.png";
+import p5 from "./assets/project-55.png";
 import p6 from "./assets/project-6.png";
 
 export const filters = [
@@ -10,14 +10,8 @@ export const filters = [
         name: "All",
         id: "all",
     },
-    {
-        name: "Dashboard",
-        id: "dashboard",
-    },
-    {
-        name: "Mobile App",
-        id: "mobile-app",
-    },
+    
+    
     {
         name: "Website",
         id: "website",
@@ -28,32 +22,38 @@ export const projects = [
     {
         name: "Discover Your Next Favorite Movie or TV Show with Ease",
         image: p1,
-        tags: ["dashboard", "mobile-app"],
+        tags: ["all", "website"],
+        link: "https://movix4.netlify.app/"
     },
     {
-        name: "Your Luggage is in Safe Hands",
+        name: "Ask to Google Gemini",
         image: p2,
-        tags: ["dashboard", "website"],
+        tags: ["all", "website"],
+        link: "https://geminiclone9889.netlify.app/"
     },
     {
-        name: "The Art of Hiring",
+        name: "An Internship Project : Amrutam's Website",
         image: p3,
-        tags: ["mobile-app"],
+        tags: ["all", "website"],
+        link: "https://amrutamapp.netlify.app/"
     },
     {
-        name: "We Are Solving Global Problems",
+        name: "A Social app: Facebook Clone",
         image: p4,
-        tags: ["mobile-app"],
+        tags: ["all", "website"],
+        link: "https://asher9889.github.io/Facebook-Like-Website/"
+
     },
     {
-        name: "The English Tea Ceremony",
+        name: "Dark Mode, Light Mode",
         image: p5,
-        tags: ["website", "dashboard"],
+        tags: ["all", "website"],
+        link: "https://asher9889.github.io/Portfolio-01/"
     },
     {
         name: "Saving Photo Memories",
         image: p6,
-        tags: ["website"],
+        tags: ["all", "website"],
     },
 ];
 
