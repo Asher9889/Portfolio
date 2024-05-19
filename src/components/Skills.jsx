@@ -26,6 +26,7 @@ import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
 import pe3 from "../assets/sec-3-p-e-3.png";
+import firebase from "../assets/sk-firebase.svg";
 
 const Skills = () => {
     const { scrollY } = useScroll();
@@ -53,6 +54,7 @@ const Skills = () => {
                     {/* <SkillIcon path={sk3} /> */}
                     <SkillIcon path={sk12} />
                     <SkillIcon path={sk13} />
+                    <SkillIcon path={firebase} />
                     {/* <SkillIcon path={sk6} /> */}
                     {/* <SkillIcon path={sk7} /> */}
                     <SkillIcon path={sk8} />
