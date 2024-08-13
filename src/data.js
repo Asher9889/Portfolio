@@ -4,6 +4,8 @@ import p3 from "./assets/project-33.png";
 import p4 from "./assets/project-44.png";
 import p5 from "./assets/project-55.png";
 import p6 from "./assets/project-6.png";
+import p7 from "./assets/project-7.png"
+import p8 from "./assets/project-8.png"
 
 export const filters = [
     {
@@ -19,6 +21,18 @@ export const filters = [
 ];
 
 export const projects = [
+    {
+        name: "Netflix impowered with ChatGPT",
+        image: p7,
+        tags: ["all", "website"],
+        link: "https://systemreact.netlify.app"
+    },
+    {
+        name: "Ability Figma to Code",
+        image: p8,
+        tags: ["all", "website"],
+        link: "https://batchsys.netlify.app"
+    },
     {
         name: "Discover Your Next Favorite Movie or TV Show with Ease",
         image: p1,
@@ -50,11 +64,7 @@ export const projects = [
         tags: ["all", "website"],
         link: "https://asher9889.github.io/Portfolio-01/"
     },
-    {
-        name: "Saving Photo Memories",
-        image: p6,
-        tags: ["all", "website"],
-    },
+   
 ];
 
 export const achievements = [
@@ -76,6 +86,6 @@ export const achievements = [
     {
         id: 4,
         year: 1,
-        description: "Passinate Developer",
+        description: "Years Passinate Developer",
     },
 ];
