@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import pdf from "../assets/Saurabh_update_resume.pdf"
 
 import Wrapper from "./Wrapper";
 import man from "../assets/man.png";
@@ -11,6 +12,9 @@ import { useFollowPointer } from "./useFollowPointer";
 const HeroBanner = () => {
     const ref = useRef(null);
     const { x, y } = useFollowPointer(ref);
+
+   
+   
     return (
         <div
             id="hero"
@@ -50,6 +54,12 @@ const HeroBanner = () => {
                             onClick={() => scrollTo("about")}
                         >
                             About me
+                        </li>
+                        <li
+                            className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
+                            
+                        >
+                         <a href={pdf} target="__blank">Resume</a>
                         </li>
                         <li
                             className="cursor-pointer px-5 py-2 hover:bg-slate-900 transition active:scale-90 rounded-lg"
